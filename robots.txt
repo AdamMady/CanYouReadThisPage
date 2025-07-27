@@ -1,0 +1,12 @@
+# Block OpenAI’s large‑scale crawler
+User-agent: GPTBot
+Disallow: /
+
+# Block the ChatGPT remote‑browser agent
+User-agent: ChatGPT-User
+Disallow: /
+
+# Block every other bot as well
+User-agent: *
+Disallow: /
+Disallow: /cgi-bin/
